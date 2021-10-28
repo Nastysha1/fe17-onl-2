@@ -1,0 +1,92 @@
+.persons-card {
+  padding: 114px 0;
+  width: 100%;
+}
+.person-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  justify-content: space-around;
+  align-items: center;
+}
+.person-card {
+  width: 22%;
+  margin: 0 15px;
+}
+
+.person-photo {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.personal-image {
+  width: 100%;
+  height: 100%;
+}
+.person-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #2d3033;
+  margin-bottom: 6px;
+}
+.person-position {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #ff4343;
+  margin-bottom: 18px;
+}
+.personal-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #6c7279;
+  margin-bottom: 47px;
+}
+.personal-link-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.personal-link {
+  display: inline-block;
+  border: 1px solid #c6cbcd;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  color: #c6cbcd;
+}
+.personal-link:last-child {
+  margin-right: 0;
+}
+
+.personal-link:hover {
+  border: 1px solid transparent;
+
+  transform: scale(2);
+}
+.personal-link:hover .fa-facebook-f {
+  color: rgba(15, 63, 221, 0.616);
+}
+.personal-link:hover .fa-twitter {
+  color: rgba(127, 201, 230, 0.74);
+}
+.personal-link:hover .fa-invision {
+  color: rgba(231, 121, 139, 0.548);
+}
